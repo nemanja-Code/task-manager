@@ -27,7 +27,7 @@ const reducer = (state, action) => {
 };
 
 function TaskForm() {
-  const { theme } = useContext(ThemeContext); // Učitaj temu iz konteksta
+  const { theme } = useContext(ThemeContext); 
   const [tasks, dispatch] = useReducer(reducer, []);
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
