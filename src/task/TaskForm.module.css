@@ -1,0 +1,62 @@
+.formContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .formContainer.dark {
+    background-color: #222;
+  }
+  
+  .inputField,
+  .textArea,
+  .selectField {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    box-sizing: border-box; 
+  }
+  
+  .inputField:focus,
+  .textArea:focus,
+  .selectField:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+  }
+  
+  .inputField,
+  .selectField {
+    max-height: 50px; 
+    overflow: hidden; 
+  }
+  
+  .textArea {
+    min-height: 100px;
+    resize: vertical; 
+  }
+  
+  .submitButton {
+    padding: 12px 24px;
+    font-size: 1.1em;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .submitButton:hover {
+    background-color: #222;
+    transform: scale(1.05);
+  }
+  
